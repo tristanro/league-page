@@ -246,27 +246,46 @@
         <li>Duel to the death</li>
     </ol>
 
-    <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
+    <h2 class="sectionHeading" bind:this={five}>Section 5 Keeper Rules</h2>
     
-    <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
+    <h3 bind:this={fiveOne}>5.1 Keeper Rules</h3>
+    <p>1 Supermax </p>
+    <ul>
+        <li>Once a player is put into this slot, this player can be kept for an indefinite amount of time.</li>
+        <li>If you wish to remove a player from this slot, the player cannot be kept and is automatically placed into the redraft pool.</li>
+        <li>If this player is traded, the team receiving this player will have to choose between their current supermax and this newly acquired one at the end of the current season.</li>
+    </ul>
+    <p> 3 Regular </p>
+    <ul>
+        <li>Once a player is placed into this slot, the player can be kept for a maximum of 3 seasons.</li>
+        <li>If this player is traded, the remaining years on his contract is carried onto the new team.</li>
+    </ul>  
+    <p> 1 Rookie </p>
+    <ul>
+        <li>Only a player who is between his rookie and sophomore season can be placed into this slot</li>
+    </ul>
+
+    <h2 class="sectionHeading" bind:this={six}>Section 6 Tanking Policy</h2>
+    
+    <h3 bind:this={sixOne}>6.1 League Tanking Policy</h3>
     <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
+    <h2 class="sectionHeading" bind:this={seven}>Section 7 Replacing Managers</h2>
     
-    <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
+    <h3 bind:this={sevenOne}>7.1 Removing Managers</h3>
     <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
     
-    <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
+    <h3 bind:this={sevenTwo}>7.2 Replacing Managers</h3>
     <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
     
-    <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
+    <h3 bind:this={sevenThree}>7.3 Replacement Incentive</h3>
     <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
 
-    <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
+    <h2 class="sectionHeading" bind:this={eight}>Section 8 League Finances</h2>
     
-    <h3 bind:this={sevenOne}>7.1 League Dues</h3>
+    <h3 bind:this={eightOne}>8.1 League Dues</h3>
     <p>League dues are set at $_. Dues will be sent to the commish via etransfer. 
-    <h3 bind:this={sevenTwo}>7.2 Payout</h3>
+    <h3 bind:this={eightTwo}>8.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
         <li>1st place: $_</li>
