@@ -5,6 +5,22 @@ import { dynasty } from './utils/helper';
     const today = new Date();
     const resources = [
         {
+            name: "Vote for Draft Dates",
+            url: "https://docs.google.com/spreadsheets/d/1WAk0QzBofEJzH_piD_9XP2Z-vvd_0HekeqndbcfsvCk/edit?usp=drive_link",
+            icon: "insights",
+            premium: false,
+            separator: true,
+        },
+
+        {
+            name: "Keeper Tracker",
+            url: "https://docs.google.com/spreadsheets/d/1Vi3ENpNgMUdagmsnC-Ef8c-EQMKFsqC9eFwNKC0SR7c/edit?usp=sharing",
+            icon: "insights",
+            premium: false,
+            separator: true,
+        },
+
+        {
             name: "FTN Fantasy",
             url: "https://www.ftnfantasy.com/nfl",
             icon: "insights",
